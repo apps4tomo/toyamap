@@ -1,0 +1,45 @@
+html, body{
+   height: 100%;
+}
+
+
+#map{
+  height: 85%;
+  position:relative;
+  z-index: 1;
+}
+
+/* ナビゲーションバー */
+#nav1{ 
+  position:relative;
+  z-index: 2; 
+}
+#nav2{ 
+  position:relative;
+  z-index: 3; 
+}
+
+
+/* CSVテーブル */
+#data_result {
+  font-size: 18px;
+  border:1;    
+　width: 100%; 
+　table-layout: fixed;
+　max-width:100px
+
+  border-collapse:collapse;　
+}
+
+/* CSVテーブル 見出し */
+#data_result th{
+  border:1px solid #000066;
+  background:royalblue;
+}
+
+/* CSVテーブル データ */ 
+#data_result td{
+  border:1px solid #000066;
+  background:#ffffff;
+  white-space:pre;
+}
